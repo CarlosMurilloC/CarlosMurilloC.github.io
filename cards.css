@@ -36,7 +36,7 @@ header h1 {
   padding: 10px 0;
   background-color: rgba(45, 52, 54, 0.95); /* Fondo aún más oscuro */
   margin: 0;
-  background-image: url('../images/imagen6.jpg');
+  background-image: url('./images/imagen6.jpg');
   text-align: center;
 }
 

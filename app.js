@@ -76,7 +76,7 @@
         }).join("\n");
 
         const total = cart.reduce((acc, item) => {
-            const price = parseFloat(item.precio.replace("$", ""));
+            const price = parseFloat(item.precio.replace("€", ""));
             return acc + price * item.cantidad;
         }, 0);
 
@@ -136,7 +136,7 @@ proceedCheckoutButton.addEventListener("click", () => {
     }).join("\n");
 
     const total = cart.reduce((acc, item) => {
-        const price = parseFloat(item.precio.replace("$", ""));
+        const price = parseFloat(item.precio.replace("€", ""));
         return acc + price * item.cantidad;
     }, 0);
 
